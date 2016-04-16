@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flappy Bird 纯HTML+JS+CSS展现</title>
+	
+	<link rel="stylesheet" href="flappy.css">
+</head>
+<body onkeydown=fly()>
+
+		<div id= "score">0</div>
+		<div id="canvas">
+		<div id="box" ></div>
+		<div id="background">
+			<div id="flag-top">
+			</div>
+			<div id="flag-bottom">
+			</div>
+		</div>
+	</div>
+	<div class="mask"></div>
+	<div class="btn" onclick = play() ><a id="start" href="#">开始游戏</a></div> 
+		
+	<div id="descript">
+		<p> 按下空格进行操作 </p>
+	</div>
+	
+	<script src="flappy-min.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1000px;
+	height: 600px;
+	background-color: #18191D;
+	font-family: "微软雅黑","Microsoft YaHei","Hiragino Sans GB","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif,Serif
+}
+.mask{
+	display: block;
+	position: absolute;
+	z-index: 500;
+	opacity: 0.8;
+	height: 600px;
+	width: 1000px;
+	background-color: #E6E6E6;
+}
+.btn{
+	position: absolute;
+	top:250px;
+	left: 400px;
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	border-radius: 25px;
+	line-height: 25px;
+	text-align: center;
+	z-index: 550;
+	opacity: 1;
+	box-shadow: 2px 2px 2px #888888;
+}
+.btn a {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	z-index: 500;
+	position: relative;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	opacity: 1;
+	text-shadow: 2px 2px 1px #888888;
+
+}
+#descript{
+	position: absolute;
+	top:620px;
+	left: 400px;
+	font-size: 30px;
+	color: gray;
+
+}
+#canvas{
+	width: 1000px;
+	height: 600px;
+	background-color: #18191D;
+	position: absolute;
+	z-index: 10;
+}
+#background{
+	height: 600px;
+	width: 1000px;
+	background-color: #18191D;
+	position: absolute;
+	z-index: 20;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	}
+#flag-top{
+	z-index: 30;
+	background-color: #000;
+	position: relative;
+	top: 0;
+	left:200px;
+	width: 20000px;
+	height: 300px;
+	overflow: hidden;
+
+}
+#flag-bottom{
+	z-index: 30;
+	background-color: #000;
+	width: 20000px;
+	height: 300px;
+	position: relative;
+	top: 0;
+	left:200px;
+	overflow: hidden;
+}
+.tbar{
+	z-index: 40;
+	display: inline-block;
+	top: 0;
+	width: 80px;
+	height: 300px;
+	margin-left: 100px;
+	background-color: blue;
+	position: relative;
+}
+.bbar{
+	z-index: 40;
+	display: inline-block;
+	width: 80px;
+	height: 300px;
+	margin-left: 100px;
+	background-color: blue;
+	position: relative;
+}
+.thidden{
+	z-index: 40;
+	display: inline-block;
+	top: 0;
+	width: 80px;
+	height: 300px;
+	margin-left: 100px;
+	background-color: blue;
+	position: relative;
+}
+.bhidden{
+	z-index: 40;
+	display: inline-block;
+	top: 0;
+	width: 80px;
+	height: 300px;
+	margin-left: 100px;
+	background-color: blue;
+	position: relative;
+}
+#box{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: relative;
+	left: 50px;
+	top:20px;
+	z-index: 50;
+	overflow: hidden;
+}
+#score{
+	position: absolute;
+	left: 500px;
+	top: 50px;
+	display: inline;
+	z-index: 200;
+	color: #fff;
+	line-height: 0;
+	font-size: 50px;
+	text-shadow: 2px 2px 1px #888888;
+
+}
